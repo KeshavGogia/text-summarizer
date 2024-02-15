@@ -1,0 +1,26 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "run": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "*",
+    "axios": "*",
+    "body-parser": "*",
+    "dotenv": "^16.4.4",
+    "express": "*",
+    "node-fetch": "*",
+    "openai": "*"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
